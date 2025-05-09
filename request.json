@@ -1,0 +1,4 @@
+{
+  "code": "-- Basic Lua test that should work in any environment\nprint(\"GGH Obfuscator Test\")\nprint(\"----------------\")\n\n-- Basic math operations that work in any Lua version\nlocal a = 10\nlocal b = 5\nprint(\"Addition:\", a + b)\nprint(\"Subtraction:\", a - b)\nprint(\"Multiplication:\", a * b)\nprint(\"Division:\", a / b)\n\n-- Create a simple table\nlocal fruits = {\"apple\", \"banana\", \"orange\"}\nprint(\"\\nFruits:\")\nfor i, fruit in ipairs(fruits) do\n  print(i, fruit)\nend\n\nprint(\"\\nTest completed successfully!\")",
+  "options": "{\"antiTamper\":true,\"removeIfExpressions\":false,\"removeCompoundAssignments\":false,\"prettify\":false,\"mangleStatements\":false,\"mangleNumbers\":true,\"mangleStrings\":true,\"mangleSelfCalls\":false,\"mangleNamedIndexes\":false,\"mangleGlobals\":false,\"flattenControlFlow\":true,\"wrapCFFBlocks\":false,\"hoistLocals\":false,\"virtualizeOptions\":true}"
+}
